@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histoire de Paris</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-flex.css">
 </head>
 
 <body>
@@ -15,45 +16,47 @@
         <nav>
             <ul>
                 <li>
-                    Accueil
+                    <a href="/">Accueil</a>
                 </li>
                 <li>
-                    Phrise chronologique
+                    <a href="#phrise-chronologique">Phrise chronologique</a>
                 </li>
                 <li>
-                    Arrondissement
+                    <a href="#arrondissement">Arrondissement</a>
                 </li>
                 <li>
-                    Architecture
-                </li>
-                <li>
-                    Contact
+                    <a href="#architecture">Architecture</a>
                 </li>
                 <li>
                     <a href="#qui-suis-je">Qui suis-je ?</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Phrise chronologique</h2>
-            <!-- Proposer une structure une phrise chronologique -->
+        <section id="banner">
             <video controls src="/video/852352-hd_1920_1080_30fps.mp4" width="1920px"></video>
         </section>
-        <section>
+        <section id="phrise-chronologique">
+            <h2>Phrise chronologique</h2>
+            <!-- Proposer une structure une phrise chronologique -->
+        </section>
+        <section id="arrondissement">
             <h2>Arrondissement</h2>
             <img src="images/image_processing20240131-3467-wz9lrd.jpg"
                 alt="carte de l'arrondissement du 13ème arrondissement de Paris" width="1200px" />
         </section>
-        <section>
+        <section id="architecture">
             <h2>Architectures</h2>
             <!--Ajouter une vidéo-->
         </section>
         <section id="qui-suis-je">
             <h2>Qui suis-je ?</h2>
         </section>
-        <section class="text-rouge">
+        <section id="contact" class="text-rouge">
             <h2>Contact</h2>
             <!--Ajouter un formulaire-->
         </section>
